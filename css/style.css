@@ -28,18 +28,18 @@ Table of contents
 -------------------------------------------------------------------
 [Color codes]
 
-Background:	#111; (black)
-Content:	#FFF; (white)
+Background:	#04151F; (black)
+Content:	#D8D8D8; (white)
 Footer:		#070707; (black)
 
-a (standard):	#F5F5F5; (white)
-a (hover): #E48632; (orange)
-a (visited):	#E48632;
-a (active):	#E48632;
+a (standard):	#D8D8D8; (white)
+a (hover): #E15D13; (orange)
+a (visited):	#E15D13;
+a (active):	#E15D13;
 
 [Colors]
 
-Primary Color: #E48632;
+Primary Color: #E15D13;
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
@@ -52,36 +52,36 @@ Primary Color: #E48632;
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: #E48632;
+    color: #E15D13;
 }
 /* -Link Styling- */
 a {
-    color: #F39C12;
+    color: #E15D13;
     font-family: Raleway, sans-serif;
 	text-decoration: none;
 }
 a:visited {
-    color: #222;
+    color: #04151F;
     text-decoration: none;
 }
 a:hover {
-    color: #E48632;
+    color: #E15D13;
 	text-decoration: underline;
 }
 a:active {
-    color: #E48632;
+    color: #E15D13;
     text-decoration: underline;
 }
 a:focus {
-    color: #E48632;
+    color: #E15D13;
     text-decoration: none;
 }
 /* -Resets- */
 html, body { 
-    background-color: #111;
+    background-color: #04151F;
     background: url(../images/bg.png);
     background-repeat: repeat;
-    color: #FFF;
+    color: #D8D8D8;
     font-size: 16px;
     line-height: 1.5rem; /* 24px */
     max-width: 100%;
@@ -123,7 +123,7 @@ p {
     font-weight: bold;
 }
 .subtle {
-	color: #999;
+	color: #9D9994;
 }
 .spaced {
     letter-spacing: 5px;
@@ -170,7 +170,7 @@ ul {
 hr {
     width: 100%;
     height: 2px;
-    background: #E48632;
+    background: #E15D13;
     margin: 20px 0;
     border: none;
 }
@@ -181,7 +181,7 @@ hr {
 }
 .short-hr-left::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: #E15D13;
     content: "";
     display: block;
     height: 1px;
@@ -190,7 +190,7 @@ hr {
 }
 .short-hr-center::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: #E15D13;
     content: "";
     display: block;
     height: 1px;
