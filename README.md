@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<img src="images/RD_texture_darkbg.png">
+<img src="Media/RD_texture_darkbg.png">
 
 You can use the [editor on GitHub](https://github.com/RustedDelusion/RustedDelusion.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
