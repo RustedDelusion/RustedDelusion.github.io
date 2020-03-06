@@ -33,7 +33,7 @@ Content:	#D8D8D8; (white)
 Footer:		#070707; (black)
 
 a (standard):	#D8D8D8; (white)
-a (hover): #E15D13; (orange)
+a (hover): #08D2E6; (blue)
 a (visited):	#E15D13;
 a (active):	#E15D13;
 
@@ -65,7 +65,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #E15D13;
+    color: #08D2E6;
 	text-decoration: underline;
 }
 a:active {
@@ -268,7 +268,7 @@ button {
 #progress {
     width: 0;
     height: 2px;
-    background: #E48632;
+    background: #E15D13;
     position: relative;
     top: 45%;
 }
@@ -880,7 +880,7 @@ button {
 /* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
-    color: #E48632;
+    color: #E15D13;
     }
     .navbar-dark {
         background-color: rgba(0,0,0,0.4); /* navbar background gradient */
