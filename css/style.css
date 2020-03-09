@@ -1,353 +1,1005 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- META TAGS -->
-    <meta charset="utf-8">
-    <meta name="author" content="AtypicalThemes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+/*------------------------------------------------------------------
+[Master Stylesheet]
 
-    <!-- WEBSITE TITLE & DESCRIPTION -->
-    <title>Rusted Delusion Studios - We Make It Personal</title>
-    <meta name="description" content="The best template for game developers and small studios">
-    <meta name="keywords" content="game, gaming, videogame, developer, steam, studio, team">
+Author: AtypicalThemes
+Template: Strider - A Game Studio Template
+Version:	1.0
 
-    <!-- OG meta tags that improve the look of your post on social media -->
-    <meta property="og:site_name" content="" /><!--website name-->
-    <meta property="og:site" content="" /> <!--website link-->
-    <meta property="og:title" content=""/> <!--Post title-->
-    <meta property="og:description" content="" /> <!--Post description-->
-    <meta property="og:image" content="" /><!-- Image link (jpg only)-->
-    <meta property="og:url" content="" /> <!--where do you want your post to link to-->
-    <meta property="og:type" content="article" />
-	
-    <!-- Favicon and Apple Icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
 
-    <!-- STYLES -->
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Animations -->
-    <link href="css/animations.css" rel="stylesheet">
-    <!-- Lightbox -->
-    <link href="css/lightbox.min.css" rel="stylesheet">
-    <!-- Video Lightbox -->
-    <link href="css/modal-video.min.css" rel="stylesheet">
-    <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-  
-</head>
-<body>
+-------------------------------------------------------------------
+Table of contents
 
-   <!-- Loading Screen -->
-    <div id="loader-wrapper">
-        <h1 class="loader-logo"><img src="images/FullLogo.png"></h1>
-        <div id="progress"></div>
-        <h3 class="loader-text">LOADING</h3>
-    </div>
+    I.General
+    II.Page Prealoader
+    III.Header & Navigation
+    IV.Hero Section
+    V.About Section
+    VI.Games Section
+    VII.Team Section
+    VIII.Careers Section
+    IX.Contact Section
+    X.Footer
+    XI.404 Page
+    XII.Responsive Styles
 
-    <!-- //// HEADER //// -->
-    <header id="main-header">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <div class="container">
-                <!-- Site Logo -->
-                <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt="site logo"></a>
-                <!-- Dropdown Button -->
-                <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                </button>
-                <!-- Navigation Links -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li>
-                            <a class="nav-link" href="#about">WHO WE A<span class="colored1">R</span>E</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#games">WHAT WE <span class="colored1">D</span>O</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#contact">CONTACT U<span class="colored1">S</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header><!-- Header End -->
-    
-    <!-- /// HERO SECTION /// -->
-    <div id="hero-section" class="medium-margin">
-        <div class="row hero-unit">
-            <div class="container">
-                <div class="hero-caption"><!-- Main Tagline -->
-                    <h1>We make it <span class="colored2">D</span>ifferent<br> We make it <span class="colored1">P</span>ersonal</h1>
-                </div>
-            </div>
-        </div>
-    </div><!-- Hero Section End -->
-    
-    <!-- /// Main Container /// -->
-    <div class="container">
-        <!-- /// ABOUT SECTION /// -->
-        <div id="about" class="large-margin">
-            <a href="about"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down"><img src="images/WhoWeAre.png"></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row">
-		        <div class="col-md-11 small-margin>
-                    <p class="small-margin">We were born to create. Developing games that touch on the human experience is what we do. We stand out, and are proud of it.</p>
-                </div>
-            </div>
+-------------------------------------------------------------------
+[Color codes]
 
-            <div id="team" class="row medium-margin">
-                 <div id="full-row" class="row text-center">
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/gooch_Team.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“I can't imagine doing anything else.”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="https://twitter.com/This_Gooch"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/mgooch0190/"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Michael Gooch</p>
-                        <p class="subtle">Co-Founder/Lead Designer</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-						<div class="team">
-                            <img src="images/placeholder.jpg" data-src="images/jordan_Team.jpg" class="img-fluid b-lazy" alt="teammember">
-							<img src="images/placeholder.jpg" data-src="images/jordanTest_Team.jpg" class="img-fluid b-lazy" class="img-top" alt="teammember">
-							</div>
-                            <figcaption class="team-caption">
-                                <p>"Excellence in playing games, and making them!"</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/in/jordancogswell/"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Jordan Cogswell</p>
-                        <p class="subtle">Co-Founder/Lead Programmer</p>
-                    </div>
-					<div class="col-md-6">
-                    <img id="support-image" src="images/placeholder.jpg" data-src="images/about.jpg" class="img-fluid b-lazy" alt="digital collage">
-                </div>
-                 </div>
-		     </div>
-	    </div>
+Background:	#04151F; (black)
+Content:	#D8D8D8; (white)
+Footer:		#070707; (black)
 
-        <!-- /// GAMES SECTION /// -->
-        <div id="games" class="large-margin">
-            <a href="games"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down"><img src="images/WhatWeMake.png"></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-md-11 small-margin">
-                   <p>Every game we create tries to do something different. We won't settle for the predictable and always welcome a new challenge. The world is full of inspiration and it would be a shame to only touch on a fraction of it.</p>
-                </div>
-				<!--
-                <div class="col-md-12">
-                    <ul class="game-tags">
-                        <li>Sort By Tag :</li>
-                        <li><a href="#" data-filter=".new">NEW</a></li>
-                        <li><a href="#" data-filter="*">ALL</a></li> 
-                        <li><a href="#" data-filter=".pc">PC</a></li> 
-                        <li><a href="#" data-filter=".mobile">MOBILE</a></li>
-                    </ul>
-                </div>
-				-->
-            </div>
-            <div class="games-portfolio ">
-                <!-- Game Card -->
-                <div class="row game-card mobile">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark">
-                            <div class="overlay">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <picture>
-                                <source media="(min-width: 1200px)" srcset="images/OTFS_SmallGameImage.jpg">
-                                <source media="(min-width: 768px)" srcset="images/game_large.jpg">
-                                <img src="images/placeholder.jpg" data-src="images/OTFS_SmallGameImage.jpg" class="img-fluid b-lazy" alt="aurora image">
-                            </picture>
-                        </a>
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark"></a>
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark"></a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">ON THE FLIP SIDE</h2>
-                        <p class="tags"><span class="subtle">Arcade | Mobile</span></p>
-                        <p class="game-description">Old is new again in this funky foot tapping endless runner for mobile. All you need to do is tap to change the world around you, all while corporate manifestations try to bring you down. Are you ready to flip to the other side?</p>
-                        <a href='https://play.google.com/store/apps/details?id=com.GoochNCogswell.TimeShiftGame&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-						<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="220" height="90"/>
-						</a>
-						<!--
-                        <a href="#" class="button-store">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <p>Available on<br><span class="strong">Apple Store</span></p>
-                       </a>
+a (standard):	#D8D8D8; (white)
+a (hover): #08D2E6; (blue)
+a (visited):	#E15D13;
+a (active):	#E15D13;
 
-                        <div class="rating">
-                            <p class="strong">4.1</p>
-                            <ul>
-                                <li><i class="fa fa-star colored1"></i></li>
-                                <li><i class="fa fa-star colored1"></i></li>
-                                <li><i class="fa fa-star colored1"></i></li>
-                                <li><i class="fa fa-star colored1"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-						-->
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game4" tabindex="-1" role="dialog" aria-labelledby="echo" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title" id="echo">ECHO - DARK ADVENTURES</h1>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/73vSguCeJl0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-                                   <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
-                                   <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                   <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">GET IMMERSED IN A FANTASTIC STORY</h2>
-                                   <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                   <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
-                                   <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- Game Card End -->
-            </div>
-        </div>
-		
-        <!-- /// CONTACT SECTION /// -->
-        <div id="contact" class="large-margin">
-            <a href="contact"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down"><img src="images/Connect.png"></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="">
-                <div class="row small-margin">
-                    <div class="col-md-11">
-                        <p>Want to talk? We are always open to hearing from anyone, so send us an email. </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">LEAVE US A MESSAGE</h2>
-                        <form id="contactForm" data-toggle="validator">
-                            <div class="form-group">
-                                <!-- Name Field -->
-                                <input type="text" id="name" placeholder="Name*" required size="35" data-error="Name is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email Field -->
-                                <input type="email" id="email" placeholder="Email*" required size="35" data-error="Email is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Message Field -->
-                                <textarea id="message" name="message" placeholder="Message*" required data-error="Message cannot be empty"></textarea>
-                                <p class="subtle">* required field</p>
-                                <div class="help-block with-errors"></div>
-                                <!-- Submit Button -->
-                                <button type="submit" class="button">SEND MESSAGE</button>
-                                <!-- Success Message -->
-                                <div id="msgSubmit" class="text-center hidden"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">OUR DETAILS</h2>
-                        <div id="contact-info">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored1"><a href="mailto:office@example.com">office@example.com</a></span></p></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- Main Container End -->
-    <!-- /// FOOTER /// -->
-    <footer id="main-footer">
-        <div id="footer"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p id="copyright">&copy; Atypical Themes <span id="year"> </span></p><!-- Copyright Text -->
-                        <ul class="social-links"> <!-- Social Media Icons -->
-                            <li><a href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus fa-lg icon-social"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin fa-lg icon-social"></i></a>
-                            <li><a href="#"><i class="fa fa-pinterest fa-lg icon-social"></i></a>
-                            <li><a href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- Container End -->
-        </div>
-    </footer><!-- Footer End -->
-    
-    <!-- //// SCRIPTS //// -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/blazy.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script src="js/jquery-modal-video.min.js"></script>
-    <script src="js/validator.min.js"></script>
-    <script src="js/strider.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
-</body>
-</html>
+[Colors]
+
+Primary Color: #E15D13;
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Roboto Font */
+@font-face {
+    font-family: 'Anurati';
+    src: url('../fonts/Anurati-Regular.otf');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),  url('Roboto-Regular.woff') format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
+/* -Color- */
+.colored1 {
+    color: #E15D13;
+}
+.colored2 {
+    color: #0AD1E5;
+}
+/* -Link Styling- */
+a {
+    color: #E15D13;
+	font-family: Roboto-Regular, sans-serif;
+	text-decoration: none;
+}
+a:visited {
+    color: #04151F;
+    text-decoration: none;
+}
+a:hover {
+    color: #08D2E6;
+	text-decoration: underline;
+}
+a:active {
+    color: #E15D13;
+    text-decoration: underline;
+}
+a:focus {
+    color: #E15D13;
+    text-decoration: none;
+}
+/* -Resets- */
+html, body { 
+    background-color: #04151F;
+    background: url(../images/bg.png);
+    background-repeat: repeat;
+    color: #D8D8D8;
+    font-size: 16px;
+    line-height: 1.5rem; /* 24px */
+    max-width: 100%;
+	overflow-x: hidden;
+}
+/* -Full width fluid container- */
+.full-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* -Text Styling */
+h1,h2,h3,h4,h5,h6 {
+	font-family: Roboto-Regular, sans-serif;
+}
+h1 {
+    font-size: 2.25rem; /* 36px */
+    font-family: Anurati, sans-serif;
+    letter-spacing: 5px;
+} 
+h2 {
+    font-size: 1.50rem; /* 24px */
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.10rem;
+    font-weight: 300;
+}
+p {
+    font-family: Open Sans, sans-serif;
+    font-size: 0.9375rem; /* 15px */
+    padding: 5px 5px 5px 0;
+    margin: 0;
+}
+.strong {
+    font-weight: bold;
+}
+.subtle {
+	color: #9D9994;
+}
+.spaced {
+    letter-spacing: 5px;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* -Margins and Floats- */
+.floated-left {
+     float: left;
+}
+.floated-right {
+    float: right;
+}
+.inline {
+	display: inline;
+}
+.offset {
+	margin-left: 10px;
+}
+.tiny-margin {
+    margin-bottom: 1.5em /* 24px */
+}
+.small-margin {
+	margin-bottom: 3em; /* 48px */
+}
+.medium-margin {
+	margin-bottom: 6em; /* 96px */
+}
+.large-margin {
+	margin-bottom: 12em; /* 192px */
+}
+/* -<hr>- */
+hr {
+    width: 100%;
+    height: 2px;
+    background: #E15D13;
+    margin: 20px 0;
+    border: none;
+}
+.hr-short {
+    width: 100px;
+    height: 2px;
+    margin: 5px auto;
+}
+.short-hr-left::after {
+    border-top: 2px solid;
+    border-color: #E15D13;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 60px;
+    margin: 13px 0 0 0;
+}
+.short-hr-center::after {
+    border-top: 2px solid;
+    border-color: #E15D13;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 60px;
+    margin: 13px auto 0 auto;
+}
+/* General input fields */
+input {
+    height: 45px;
+    padding-left: 10px;
+    border: 1px solid #D4D4D4 !important;
+}
+input:focus {
+    border: 1px solid #333;
+    outline: none;
+}
+textarea {
+    height: 150px;
+	width: 100%;
+    max-width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+    border: 1px solid #D4D4D4 !important;
+}
+textarea:focus {
+    border: 1px solid #333;
+    outline: none;
+}
+/* -General Button Styles */
+button {
+    outline: none !important;
+}
+.button {
+	background: #E15D13;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: Roboto-Regular, sans-serif;
+    font-weight: 500;
+	display: block;
+	height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 5px 15px;
+    outline: none;
+	transition: all 0.2s ease;
+    cursor: pointer;
+}
+.button:hover {
+	background: #0AD1E5;
+	color: #2B2B2B;
+}
+/* --------------------------- /////////// II. PAGE PRELOADER /////////// --------------------------- */
+/* -Loading Screen- */
+#loader-wrapper {
+    background: #111;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1050;
+}
+.loader-logo {
+    position: relative;
+    color: #FFF;
+    top: 43%;
+    font-family: Anurati, sans-serif;
+    letter-spacing: 5px;
+}
+#progress {
+    width: 0;
+    height: 2px;
+    background: #E15D13;
+    position: relative;
+    top: 45%;
+}
+.loader-text {
+    position: relative;
+    color: #FFF;
+    top: 48%;
+}
+
+/* -Loading Screen Animation- */
+.loaded {
+    -moz-transform: translate3d(0px, -100%, 0px);
+    -webkit-transform: translate3d(0px, -100%, 0px);
+    -o-transform: translate(0px, -100%);
+    -ms-transform: translate(0px, -100%);
+    transform: translate3d(0px, -100%, 0px);
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease;
+}
+
+/* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
+#logo {
+    font-family: Anurati, sans-serif;
+    font-size: 1.75rem; /* 28px */;
+    letter-spacing: 5px;
+}
+.navbar-dark {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+    z-index: 900;
+    transition: 0.3s;
+}
+.scrolled {
+    background-color: rgba(0,0,0,0.8); /* navbar background gradient */
+    z-index: 900;
+}
+.nav-link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 5px;
+    transition: 0.2s;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #0AD1E5;
+}
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #282F39;
+}
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #282F39;
+}
+.navbar-toggler {
+    border: none;
+    cursor: pointer;
+}
+#hamburger .icon-bar {
+    display: block;
+    height: 2px;
+    width: 25px;
+    background: #FFF;
+    margin: 7px 0;
+    transition: .3s ease-in-out;
+}
+/* - Mobile menu animation - */
+#hamburger .icon-bar:nth-child(1) {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+#hamburger .icon-bar:nth-child(2) {
+   -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+#hamburger .icon-bar:nth-child(3) {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+#hamburger.open .icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#hamburger.open .icon-bar:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+#hamburger.open .icon-bar:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
+/* -Hero Image- */
+.hero-unit {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+    height: 100vh;
+}
+/* -Hero Image Caption- */
+.hero-caption {
+    display: block;
+    position: relative;
+    margin-top: 40vh;
+    color: #FFF;
+	text-shadow: none; 
+    padding: 20px;
+    z-index: 5;
+    text-align: center;
+}
+.hero-caption h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    font-family: Roboto-Regular, sans-serif;
+}
+/* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
+#support-image {
+    margin: 0 0 0 20%;
+}
+/* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
+.game-tags {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 10px;
+    border-left: 2px solid #E48632;
+}
+.game-tags li {
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size:1.10rem; /* 20px */;
+    font-weight: 500;
+}
+.game-tags li a {
+    color: #FFF;
+    text-decoration: none;
+}
+.game-tags li a:hover {
+    color: #E48632;
+}
+.game-tags li a:focus {
+    color: #E48632;
+}
+.game-card {
+    width: 100%;
+    margin: 0 0 3.5em 0;
+    min-height: 270px;
+    height: auto;
+}
+.lightbox .lb-image {
+    border: 4px solid #111;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    border-left: 2px solid #E48632;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.overlay i {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.overlay:hover {
+    opacity: 1;
+}
+.game-card-left {
+    padding: 0;
+}
+.game-card-left img {
+    height: 100%;
+    width: 100%;
+    min-height: 270px;
+}
+.game-card-right {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 20px 40px;
+    margin: 0;
+}
+.game-card-right h2 {
+    margin-bottom: 0;
+}
+.game-card-right > .short-hr-left::after {
+    margin: 5px 0;
+}
+.tags {
+    font-size: 14px;
+    padding-top: 0;
+}
+.game-description {
+    margin: 35px 0;
+}
+/* -- Modal -- */
+.expand {
+    cursor: pointer;
+}
+.game-modal .modal-header {
+    height: 150px;
+    background-image: url(../images/modal_header_bg.png);
+    background-position: bottom;
+    background-size:  cover;
+    border-bottom: 1px solid #555;
+}
+.game-modal .modal-title {
+    margin: 5% 0 0 5%;
+}
+.game-modal img {
+    margin: 5px 0 50px 0;
+}
+.modal-vid {
+    width: 100%;
+    max-width: 768px;
+    height: 415px;
+    margin: 20px 0 60px 0;
+    border: none;
+}
+/* -- Buttons -- */
+.steam-btn {
+    display: inline-block;
+    margin: 25px 0 0 0;
+}
+.steam-btn a {
+    display: inline-block;
+    min-height: 55px;
+    min-width: 150px;
+    height: auto;
+    width: auto;
+    background: #DDD;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+    color: #111;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.steam-btn:hover a {
+    background: #000;
+    color: #FFF;
+}
+.steam-btn i {
+    float: left;
+}
+.steam-btn p {
+    float: right;
+    line-height: 20px;
+    font-weight: bold;
+}
+.button-store {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 22px;
+    border-radius: 5px;
+    margin: 30px 10px 0 0;
+    color: #111;
+    background: #DDD;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+/*
+.button-store:hover {
+    background: #000;
+    color: #FFF;
+}
+*/
+.button-store > i {
+    float: left;
+    display: inline;
+    margin-top: 5px;
+}
+.button-store  p {
+    float: right;
+    padding: 0 0 0 10px;
+}
+.reviews {
+    width: auto;
+    display: inline-block;
+    float: right;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.reviews a {
+    color: #FFF;
+}
+.reviews a:hover {
+    color: #FFF;
+}
+.reviews a:active {
+    color: #FFF;
+}
+.reviews a:visited {
+    color: #FFF;
+}
+.score-card {
+    display: inline-block;
+    min-height: 70px;
+    min-width: 90px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    text-align: center;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.score-card:hover {
+    background: #FFF;
+}
+.score-card:hover p {
+    color: #111;
+}
+.score-card p:nth-of-type(2) {
+    font-size: 14px;
+    padding-top: 0;
+}
+.score {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+.rating {
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    text-align: center;
+    float: right;
+    border-radius: 2px;
+    margin: 20px 0 0 0;
+}
+.rating ul {
+    margin: 0;
+}
+.rating ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+.rating p {
+    font-size: 1.5rem;
+}
+/* --------------------------- /////////// VII. TEAM SECTION /////////// --------------------------- */
+#full-row {
+    width: 100%;
+}
+#team figure {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+#team figure img {
+    border-radius: 3px;
+    border-bottom: 2px solid #E48632;
+}
+.team-caption ul {
+    margin-top: 10px;
+}
+.team-caption ul li {
+    display: inline;
+    margin: 0 5px;
+}
+.team-caption ul li > a {
+    color: #EEE;
+}
+.team-caption ul li > a:hover {
+    color: #0AD1E5;
+}
+.team-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    text-align: center; 
+    padding: 40% 20px 20px 20px;
+    z-index: 5;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+#team figure:hover > .team-caption {
+    opacity: 1;
+}
+#team figure:hover > img {
+    filter: blur(2px);
+}
+.team-name {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+.team-center{
+    margin-left: auto;
+    margin-right: auto
+}
+
+.gallery-item {
+    padding: 0 2.5px;
+}
+.grid-gallery .row {
+    margin: 0 0 5px 0;
+}
+.overlay.gallery {
+    left: 0;
+    width: 100%;
+    border: none;
+}
+/* --------------------------- /////////// VIII. CAREERS SECTION /////////// --------------------------- */
+.job-card {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-left: 2px solid #E48632;
+    padding: 25px 35px;
+    margin: 10px 0;
+}
+.modal-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+.modal-header {
+    border-bottom: 1px solid #E48632;
+}
+.modal-body > ul > li > p {
+    padding: 0px 5px;
+    display: inline;
+}
+.modal-body ul {
+    list-style: none;
+    margin: 10px 0 0 25px;
+}
+.modal-body ul li {
+    margin: 5px 0;
+}
+.modal-body ul li:before {
+    content: "\f101";
+    color: #E48632;
+    display: inline-block;
+    width: 1em;
+    margin-left: -10px;
+    font-family: fontawesome;
+}
+.modal-body .skill-list {   
+    margin: 10px 0;
+}
+.modal-body .skill-list li {
+    display: inline-block;
+    padding: 5px 15px 7px 15px;
+    margin: 5px 5px;
+    border: 1px solid #E48632;
+    border-radius: 20px;
+}
+.modal-body .skill-list li:before {
+    display: none;
+}
+.modal-body h3 {
+    margin-bottom: 0;
+}
+.modal-footer {
+    border-top: 1px solid #E48632;
+}
+.modal-footer button {
+    margin: 0;
+}
+.button.secondary {
+    background: #222;
+}
+.button.secondary:hover {
+    background: #FFF;
+}
+.close {
+    color: #FFF;
+    opacity: 1;
+    text-shadow: none;
+    cursor: pointer;
+}
+.close:hover {
+    color: #E48632;
+    opacity: 1;
+}
+/* -- Newsletter -- */
+#newsletter input {
+    width: 40%;
+    height: 45px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border: none !important;
+    padding: 0 0 0 20px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+}
+#newsletter button {
+    display: inline-block;
+    height: 43px;
+    width: auto;
+}
+/* --------------------------- /////////// IX. CONTACT SECTION /////////// --------------------------- */
+#contactForm {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 5%;
+    margin-top: 25px;
+}
+#contactForm input {
+    width: 100%;
+    color: #FFF;
+    background: none;
+    border-bottom: 2px solid #E48632 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    margin-bottom: 25px;
+}
+#contactForm textarea {
+    width: 100%;
+    color: #FFF;
+    background: none;
+    border-bottom: 2px solid #E48632 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    margin-bottom: 25px;
+}
+#contactForm .button {
+    margin-left: 0;
+    padding: 15px 25px;
+    font-size: 1.25rem;
+}
+/* - Warning and succes msg text- */
+.text-danger, .text-success {
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+#contact-info {
+    margin-top: 25px;
+}
+#contact ul li i {
+    color: #E48632;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 10px; 
+}
+#contact ul li p {
+    display: inline;
+    margin-left: 5px;
+}
+#contact ul li {
+    margin-bottom: 15px;
+}
+#map-canvas {
+    width: 100%;
+    height: 330px;
+    opacity: 0.9;
+}
+/* --------------------------- /////////// X. FOOTER /////////// --------------------------- */
+#footer {
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    background: #070707;
+    border-top: 2px solid #E48632;
+    padding: 20px 0 0 0;
+}
+.social-links {
+    float: right;
+}
+.social-links li {
+    display: inline;
+    margin-left: 15px;
+}
+.social-links li a {
+    color: #FFF;
+}
+.social-links li a:hover {
+    color: #E48632;
+}
+.social-links li a:focus {
+    color: #E48632;
+}
+#copyright {
+    float: left;
+}
+/* --------------------------- /////////// XI. 404 PAGE /////////// --------------------------- */
+#container-404 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#container-404 .row-fluid {
+     margin-top: 18%;
+}
+.text-404 h1 {
+    font-family: Anurati, sans-serif;
+    font-size: 4rem;
+}
+.text-404 a {
+    display: inline-block;
+    text-decoration: none;
+}
+/* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
+@media (max-width : 991px) {
+    .nav-item > a::first-letter {
+    color: #FFF;
+    }
+    .navbar-dark {
+        background-color: rgba(0,0,0,0.4); /* navbar background gradient */
+    }
+    .scrolled {
+        background-color: rgba(0,0,0,0.8); /* navbar background gradient */
+    }
+    #footer {
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .social-links {
+        float: none;
+    }
+    #copyright {
+        float: none;
+        margin-bottom: 5px;
+    }
+    #container-404 .row-fluid {
+        margin-top: 40%;
+    }
+}
+@media (max-width : 767px) {
+    .large-margin {
+	   margin-bottom: 4em; /* 96px */
+    }
+    .medium-margin {
+        margin-bottom: 3em;
+    }
+    .small-margin {
+        margin-bottom: 2em;
+    }
+    .heading {
+        font-size: 1.50rem;
+    }
+    hr {
+        margin: 0;
+    }
+    #support-image {
+        display: block;
+        margin: 2em auto 0 auto;
+    }
+    .game-card {
+        margin: 0 0 3em 0;
+    }
+    .steam-btn {
+        display: block;
+        text-align: center;
+    }
+    .button-store:nth-of-type(2) {
+        float: right;
+    }
+    .reviews {
+        display: block;
+        margin: 15px auto 0 auto;
+        float: left;
+        width: 100%;
+    }
+    .rating {
+        display: block;
+        margin: 15px auto 0 auto;
+        float: none;
+    }
+    #team figure {
+        margin: 20px auto;
+    }
+    .gallery-item {
+        margin: 5px 0;
+    }
+    .grid-gallery .row {
+        margin: 0;
+    }
+    #newsletter input {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+    }
+    #newsletter button {
+        width: 100%; 
+        display: block;
+    }
+    #contactForm {
+        margin: 0 0 3em 0;
+    }
+    .text-404 h1 {
+        font-size: 3.5rem;
+    }
+}
+@media (max-width : 480px) {
+    .game-card-left img {
+        min-height: 0;
+    }
+    .score-card {
+        margin: 5px 0;
+    }
+    .hero-caption h1 {
+        font-size: 2.5rem;
+    }
+    .button-store {
+        margin: 5px auto;
+    }
+    .button-store:nth-of-type(2) {
+        float: none;
+    }
+}
