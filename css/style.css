@@ -44,20 +44,30 @@ Primary Color: #E15D13;
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Roboto Font */
 @font-face {
     font-family: 'Anurati';
     src: url('../fonts/Anurati-Regular.otf');
 }
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),  url('Roboto-Regular.woff') format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
-.colored {
+.colored1 {
     color: #E15D13;
+}
+.colored2 {
+    color: #0AD1E5;
 }
 /* -Link Styling- */
 a {
     color: #E15D13;
-    font-family: Raleway, sans-serif;
+	font-family: Roboto-Regular, sans-serif;
 	text-decoration: none;
 }
 a:visited {
@@ -94,7 +104,7 @@ html, body {
 }
 /* -Text Styling */
 h1,h2,h3,h4,h5,h6 {
-	font-family: Raleway, sans-serif;
+	font-family: Roboto-Regular, sans-serif;
 }
 h1 {
     font-size: 2.25rem; /* 36px */
@@ -224,11 +234,11 @@ button {
     outline: none !important;
 }
 .button {
-	background: #E48632;
+	background: #E15D13;
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
     font-weight: 500;
 	display: block;
 	height: auto;
@@ -243,7 +253,7 @@ button {
     cursor: pointer;
 }
 .button:hover {
-	background: #FFF;
+	background: #0AD1E5;
 	color: #2B2B2B;
 }
 /* --------------------------- /////////// II. PAGE PRELOADER /////////// --------------------------- */
@@ -315,13 +325,13 @@ button {
     color: #FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #E48632;
+    color: #0AD1E5;
 }
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #E48632;
+    color: #282F39;
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #E48632;
+    color: #282F39;
 }
 .navbar-toggler {
     border: none;
@@ -393,7 +403,7 @@ button {
 .hero-caption h1 {
     font-weight: 300;
     font-size: 3rem;
-    font-family: Raleway, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
 }
 /* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
 #support-image {
@@ -408,7 +418,7 @@ button {
 .game-tags li {
     display: inline;
     margin: 0 0 0 15px;
-    font-family: Raleway, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
     font-size:1.10rem; /* 20px */;
     font-weight: 500;
 }
@@ -544,10 +554,12 @@ button {
     cursor: pointer;
     transition: 0.2s;
 }
+/*
 .button-store:hover {
     background: #000;
     color: #FFF;
 }
+*/
 .button-store > i {
     float: left;
     display: inline;
@@ -639,6 +651,7 @@ button {
     border-radius: 3px;
     border-bottom: 2px solid #E48632;
 }
+
 .team-caption ul {
     margin-top: 10px;
 }
@@ -650,7 +663,7 @@ button {
     color: #EEE;
 }
 .team-caption ul li > a:hover {
-    color: #E48632;
+    color: #0AD1E5;
 }
 .team-caption {
     position: absolute;
