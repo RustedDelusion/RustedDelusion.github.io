@@ -651,7 +651,15 @@ button {
     border-radius: 3px;
     border-bottom: 2px solid #E48632;
 }
-
+.team .img-top{
+	 display: inline-block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.team:hover .img-top{
+	display: inline;
+}
 .team-caption ul {
     margin-top: 10px;
 }
