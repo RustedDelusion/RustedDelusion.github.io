@@ -1,10 +1,10 @@
 <?php
 $errorMSG = "";
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required";
+// SUBJECT
+if (empty($_POST["subject"])) {
+    $errorMSG = "Subject is required";
 } else {
-    $name = $_POST["name"];
+    $subject = $_POST["subject"];
 }
 // EMAIL
 if (empty($_POST["email"])) {
@@ -19,19 +19,17 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "yourdomain@example.com";
-$Subject = "New Message From Strider";
+$EmailTo = "contact@rusteddelusion.com";
+$Subject = $subject;
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
+$Body .= "A message sent through rusteddelusion.com contact form"
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 // redirect to success page

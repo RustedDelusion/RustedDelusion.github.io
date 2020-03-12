@@ -128,7 +128,7 @@ $(document).ready(function(){
 
     function submitForm() {
         // Initiate Variables With Form Content
-        var name = $("#name").val();
+        var subject = $("#subject").val();
         var email = $("#email").val();
         var message = $("#message").val();
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             url: "php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message,
+            data: "subject=" + subject + "&email=" + email + "&message=" + message,
             success: function(text) {
                 if (text === "success") {
                     formSuccess();
