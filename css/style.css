@@ -45,6 +45,7 @@ Primary Color: #E15D13;
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Roboto Font */
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 @font-face {
     font-family: 'Anurati';
     src: url('../fonts/Anurati-Regular.otf');
@@ -64,9 +65,11 @@ Primary Color: #E15D13;
 .colored2 {
     color: #0AD1E5;
 }
-
 .coloredTwitterBlue{
 	color: #1DA1F2;
+}
+.coloredDiscordPurple{
+	color: #7289DA;
 }
 /* -Link Styling- */
 a {
@@ -737,7 +740,8 @@ button {
     display: inline-block;
     width: 1em;
     margin-left: -10px;
-    font-family: fontawesome;
+    font-family: "Font Awesome 5 Free";
+	font-weight: 400;
 }
 .modal-body .skill-list {   
     margin: 10px 0;
