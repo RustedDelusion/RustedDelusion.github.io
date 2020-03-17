@@ -64,6 +64,10 @@ Primary Color: #E15D13;
 .colored2 {
     color: #0AD1E5;
 }
+
+.coloredTwitterBlue{
+	color: #1DA1F2;
+}
 /* -Link Styling- */
 a {
     color: #E15D13;
@@ -831,7 +835,6 @@ button {
     margin-top: 25px;
 }
 #contact ul li i {
-    color: #E48632;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px; 
 }
